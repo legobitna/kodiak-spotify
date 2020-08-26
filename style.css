@@ -1,0 +1,41 @@
+body{
+    margin:0px;
+    color:white;
+}
+
+nav{
+    height:60px;
+    background-color:black;
+    display:flex;
+    justify-content: center;
+}
+
+section {
+    height: 800px;
+    background-color: #2d46b9;
+    background-image: url(https://www.scdn.co/i/home/lieVariants/bursts.svg);
+    background-position: 43% 0%;
+    background-size: 165%;
+    display: flex;
+    justify-content: center;
+  }
+footer{
+    height:600px;
+    background-color:black;
+}
+
+.container{
+    max-width:1170px;
+    border:1px solid red;
+    width:100%;
+
+}
+
+.nav-style{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-style a{
+    color:white;
+}
